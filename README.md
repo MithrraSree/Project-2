@@ -7,7 +7,8 @@ Audible Insights is an intelligent book recommendation system designed to provid
 Project Overview
 This project aims to help readers discover books tailored to their tastes, empower libraries and bookstores with smarter inventory suggestions, and assist authors/publishers with reader insights. The recommendation engine leverages two datasets of book details, ratings, and user interactions, which are preprocessed and analyzed before model building.
 
-Business Use Cases
+# Business Use Cases
+
 Personalized Reading Experience: Recommend books based on individual preferences, reading history, and favorite genres or authors.
 
 Enhanced Library Systems: Aid libraries/bookstores in suggesting popular or related titles to boost borrowing/sales.
@@ -16,7 +17,7 @@ Publisher/Author Insights: Offer data-driven trends about popular genres and rea
 
 Reader Engagement: Boost engagement by suggesting top-rated or trending books.
 
-Approach
+# Approach
 1.  Data Preparation
 Merge datasets based on book titles, authors, etc.
 
@@ -60,15 +61,3 @@ Deploy the Streamlit app to AWS EC2 or Elastic Beanstalk
 
 Store processed data or models in AWS S3 for scalability
 
-Tech Stack
-Python (pandas, numpy, scikit-learn, NLTK, seaborn, matplotlib)
-
-Machine Learning (Surprise, Scikit-learn)
-
-NLP (TF-IDF, cosine similarity)
-
-Clustering (K-Means, DBSCAN)
-
-Web App: Streamlit
-
-Deployment: AWS EC2 / Elastic Beanstalk
